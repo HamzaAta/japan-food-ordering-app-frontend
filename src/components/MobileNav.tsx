@@ -1,4 +1,4 @@
-import { CircleUserRound, CircleUserRoundIcon, Menu } from "lucide-react";
+import { CircleUserRound, Menu } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -6,7 +6,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "./ui/sheet";
-import React from "react";
 import { Separator } from "./ui/separator";
 import { Button } from "./ui/button";
 import { useAuth0 } from "@auth0/auth0-react";
