@@ -1,0 +1,12 @@
+import React from "react";
+import { Button } from "./ui/button";
+import { Loader2 } from "lucide-react";
+
+export default function LoadingButton() {
+  return (
+    <Button>
+      <Loader2 className="m-4 h-4 w-4 animate-spin" />
+      Loading
+    </Button>
+  );
+}
