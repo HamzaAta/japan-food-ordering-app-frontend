@@ -20,6 +20,14 @@ export default function UsernameMenu() {
       </DropdownMenuTrigger>
       <DropdownMenuContent className="py-2 px-2">
         <DropdownMenuItem className="flex">
+          <Link
+            to="/manage-restaurant"
+            className=" font-bold hover:text-orange-500"
+          >
+            Manage Restaurant
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem className="flex">
           <Link to="/user-profile" className=" font-bold hover:text-orange-500">
             User Profile
           </Link>
